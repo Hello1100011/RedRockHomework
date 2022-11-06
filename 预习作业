@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一个要裂开的页面</title>
+    <style>
+        .pink {
+            width:120px;
+            height:100px;
+            background-color:rgb(224, 255, 192);
+        }
+        .p {
+            color: rgb(53, 52, 52);
+        }
+        h2 {
+            color: rgb(166, 224, 238);
+        }
+        h3 {
+            color: rgb(231, 220, 129);
+        }
+        tr {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>要安排好</h2>
+    <p>要把各种事情安排好</p>
+    <p>不想被ddl牵着跑了呜呜呜</p>
+    <h3>拒绝拖延</h3>
+    <img src="https://ts1.cn.mm.bing.net/th?id=OIP-C.ThxdN1rpLNUMOEMp7Lpe2wHaE9&w=183&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2" title="坚强" /><br />
+    <div class="pink">教训呢教训呢</div>
+    <a href="http://www.weibo.com" target="_blank">点&nbsp;击&nbsp;通&nbsp;往&nbsp;微&nbsp;博&nbsp;hahahahaha</a>
+    <!-- 再也不要拖延了555! -->
+    <h4><em>fruit</em></h4>
+    <ul>
+       <li>菠萝蜜</li>
+       <li>提子</li>
+       <li>芒果</li>
+       <li>荔枝</li>
+    </ul>
+    <form>
+        <input type="text" maxlength="0" value="输入什么也没用" /><br />
+        <input type="button" value="再怎么点也没用的按钮"/>
+    </form>
+    <table border="1" cellpadding="5" cellspacing="0" width="400" height="40">
+        <tr><td>用户名:</td> <td><input type="text"/></td></tr>
+        <tr><td>密码:</td> <td><input type="text"/></td></tr>
+        <tr><td colspan="2">
+            <input type="submit"/> &nbsp;<input type="reset"/>
+        </td> </tr> 
+    </table>
+    <h4 ><em>自我介绍</em></h4>
+    <form>
+        姓名:<input type="text"/><br />
+        性别：男<input type="radio" name="sex"/>  女<input type="radio" name="sex"/><br />
+        爱好：唱歌<input type="checkbox" name="hobby"/> 绘画<input type="checkbox" name="hobby"/> 敲代码<input type="checkbox"/> 听歌<input type="checkbox"/><br />
+        城市：<select>
+            <option>重庆</option>
+            <option>长沙</option>
+            <option>上海</option>
+            <option>北京</option>
+        </select>
+    </form>
+    <form>
+        每日计划：
+        <textarea></textarea>
+    </form>
+</body>
+</html>
